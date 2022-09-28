@@ -82,7 +82,7 @@ export default function Home({ posts }) {
 
       <nav className={styles.navbar}>
         <ul className={styles.navMenu}>
-          <li className={styles.navLinksLeft}> zahwah's blog </li>
+          <li className={styles.navLinksLeft}> zahwah&apos;s blog </li>
           <li className={styles.navLinksRight}><Link href="/"> random thoughts &#8594; </Link></li>
         </ul>
       </nav>
