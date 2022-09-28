@@ -3,7 +3,7 @@
 A blog where I write about my coding journey 👩🏻‍💻
 
 
-![Screenshot]()
+![Screenshot](https://github.com/zahwah-codes/random-thoughts/blob/787ce9526154efc9bfde6f09065c174a61b0689a/blog-screenshot.png)
 
 
 
