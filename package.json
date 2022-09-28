@@ -1,0 +1,27 @@
+{
+  "name": "my-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node_modules/next/dist/bin/next start -p $PORT",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^7.4.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "html-react-parser": "^3.0.4",
+    "moment": "^2.29.4",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.7"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
+}

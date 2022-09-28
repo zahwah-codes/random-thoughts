@@ -1,0 +1,18 @@
+.card{
+  margin: 0 5rem;
+  margin-bottom: 100px;
+}
+
+.text {
+  font-size: 2rem;
+  margin-top:20px;
+}
+
+.imgContainer {
+  object-fit: cover;
+  cursor: url(https://img.icons8.com/external-phatplus-lineal-phatplus/100/00000/external-eye-essential-phatplus-lineal-phatplus.png), auto;
+}
+
+.text h2 {
+  font-size: 2rem;
+}

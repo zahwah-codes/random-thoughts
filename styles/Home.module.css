@@ -1,0 +1,59 @@
+
+
+.sectionTitle{
+  padding: 0 5rem;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinksLeft{
+  font-size: 2rem;
+}
+
+.navLinksRight {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.navLinksRight a {
+  color: lightgray;
+}
+
+.sectionTitle p {
+  margin-top: 50px;
+  font-size: 2rem;
+  width: 80%;
+  line-height: 40px;
+}
+
+.main {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+.sectionTitle p {
+  font-size: 2.2rem;
+  width: 40%;
+}
+
+.navLinksLeft {
+  font-size: 3rem;
+}
+
+.navLinksRight {
+  font-size: 1.5rem;
+}
+}

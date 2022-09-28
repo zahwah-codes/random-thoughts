@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(/fonts/PPNeueMontreal-Book.woff2);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: PP Neue Montreal;
+  font-weight: 400;
+}
+
+nav {
+  padding: 5rem;
+  font-family: PP Neue Montreal
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p,
+li {
+  line-height: 1.5rem;
+  font-family: PP Neue Montreal;
+  font-size: 1.1rem;
+  list-style: none;
+}
+
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+/* Cursor */
+
+.cursor-wrapper {
+  pointer-events: none;
+}
+
+.cursor {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  transition: 0.1s;
+  border: 1px solid black;
+  pointer-events: none;
+}

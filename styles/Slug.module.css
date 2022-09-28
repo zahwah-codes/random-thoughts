@@ -1,0 +1,77 @@
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinksLeft {
+  font-size: 2rem;
+}
+
+.navLinksRight {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.navLinksRight a {
+  color: lightgray;
+}
+
+.blog {
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 60px;
+}
+
+.title {
+  font-size: 2rem !important;
+  margin-bottom: 30px;
+}
+
+.date {
+  margin-top: 5px;
+  font-size: 1.3rem !important;
+}
+
+.content{
+  margin-top: 50px;
+}
+
+.content p {
+  font-size: 1.5rem !important;
+  line-height: 40px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  gap: 40px;
+  font-family: PP Neue Montreal;
+}
+
+.homeBtn, .nextBtn {
+  font-size: 1.7rem;
+  color: black !important;
+}
+
+@media only screen and (min-width: 800px) {
+
+  .navLinksLeft {
+    font-size: 3rem;
+  }
+
+  .navLinksRight {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 4rem !important;
+  }
+
+  .content p {
+  font-size: 2rem !important;
+  line-height: 40px;
+}
+
+}
